@@ -81,7 +81,7 @@ def getRes(firstlist, fJson):
       ourResult = random.choice(i["response"])
       break
   return ourResult
-pattern=r'selfie|selvi|selbi|selbe|selbee|silbi|silby|sylbie|sylbi|silbe|silby|silbi'
+pattern=r'selby'
 while True:
     msg=""
     msg1=""
