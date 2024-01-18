@@ -1,0 +1,50 @@
+{
+  "intents":[
+           {
+            "tag":"greeting",
+            "pattern":["hello","hey there","hi","good morning","greetings","yo","how,how's it going","hey,what's up","hiya","hey,how are you"],
+            "response":["hello how can i assist you today","hi there what can i help you with","hey welcome how can i be of service","good morning is there something you would like to know","greetings how may i assist you on this fine day","yo how can i make your day better","hi, hope you're doing well. how can i assist","hey, what's up? How can i support you?","hiya, Ready to help you out. What do you need?","Hey, how are you? What can i do for you today"]
+           },
+           {
+            "tag":"introduction",
+            "pattern":["Iam new here","This is my first time","Just joined!","I'm a newbie","New user here.","Hello, I'm new.","Brand new to this.","I'm inexperienced here.","Never been here before.","Starting fresh here."],
+            "response":["welcome its great to have you here. Is there any thing you would like to know or do","Hello and welcome, Feel free to explore and ask if you have any questions.","Nice to meet you, If you need assistance, don't hesitate to ask.","Hello, newbie, Don't worry, I'm here to help you get started. What can I assist you with?","Greetings, new user Feel free to ask anything you're curious about.","Welcome aboard If you have any queries, feel free to ask away.","Hey there, fresh face! Let's make your experience here a great one. What can I do for you?","Newcomer alert Feel free to let me know if you need any guidance or information.","Hello, new arrival Let's make your introduction to this place a smooth one. How can I assist you?","Hello and welcome As a new user, I'm here to help you settle in. What would you like to know?"]
+           },
+           {
+            "tag":"farewell",
+            "pattern":["good bye","goodbye","See you later.","Time to go.","I'm signing off.","Take care!","Farewell!","Until next time.","I'm out.","Gotta run.", "Have a good one!"],
+            "response":["goodbye,feel free to come back anytime you need help","See you later Don't hesitate to return if you have more questions.", "Take care If you need assistance in the future, I'll be here.","Farewell Remember, I'm just a message away if you need anything.","Until next time Feel free to reach out whenever you need assistance.","Signing off for now. Remember, I'm here whenever you need support.","Bye for now If you ever have more inquiries, don't hesitate to ask.", "Have a good one! If you require help in the future, don't hesitate to contact me.","Gotta go? No worries I'm here whenever you return.", "Take care Whenever you're ready, I'll be here to assist you."]
+           },
+           {
+            "tag":"polite",
+            "pattern":["could you please help me","Would you be able to assist?", "May I ask for your guidance?","Might I trouble you for some help?", "Might I trouble you for some help?","I'd appreciate your assistance.", "Would it be possible for you to help?","If it's not too much to ask, could you support me?","May I request your help?", "I hope you can help me out."],
+            "response":["of course i would happy to help. how can i assist you","Certainly, I'm here to assist. Please let me know how I can help.","Absolutely, I'm at your service. What can I do for you?", "Certainly, your request is important to me. How can I support you?", "Absolutely, I'm here to lend a hand. Please tell me what you require.","Of course, I'm ready to help. What can I do for you today?","Certainly, your request is my priority. Please let me know how I can assist.","Of course, I'm here to provide support. How can I be of service?","Absolutely, I'm here to assist you. What can I do to help?","Certainly, I'm available to help. Please let me know what you need."]
+           },
+           {
+            "tag":"acknowledgement",
+            "pattern":["thanks a lot","I appreciate your support.","Thank you for assisting me.", "I'm grateful for your guidance.","I'm thankful for your response.","I'm glad you're here.","You've been very helpful.", "I'm lucky to have your help.","I'm relieved you're available.", "I'm pleased with your assistance."],
+            "response":["You're welcome I'm here to help whenever you need.","It's my pleasure Feel free to reach out anytime you have questions.","No problem at all I'm glad I could assist you.","I'm happy to have been of help. Don't hesitate to ask again.","You're welcome If you have more queries, don't hesitate to ask.","I'm glad I could be of service. Feel free to ask anything else.","I'm here to make things easier. If you need further assistance, let me know.","I'm here to support you. If you have more questions, don't hesitate to ask.","I'm here whenever you need assistance. Don't hesitate to ask for help.","I'm pleased I could assist you. If you need anything else, I'm here."]
+           },
+           {
+            "tag":"compliment",
+            "pattern":["You're doing a great job!", "I'm impressed with your knowledge.", "Your assistance is outstanding!","You're really helpful!", "Your responses are excellent.", "You're very knowledgeable!", "You're a fantastic assistant!","I'm thankful for your support.","You're making this easy for me!","I'm grateful for your help!" ],
+            "response":["Thank you so much for your kind words I'm here to assist you whenever you need.","I appreciate your compliment If you have any more questions, feel free to ask.","Your words mean a lot to me I'm here to provide the best assistance possible.","I'm thrilled to have been of help If there's anything else you need, let me know.","I'm glad I could assist you well If you have further inquiries, don't hesitate to ask.","Thank you for the compliment It's my goal to provide informative and helpful responses.","I'm delighted to be of service If you need more help, don't hesitate to reach out.","Your appreciation is valued If you have more questions in the future, feel free to ask.","I'm here to make things easier for you If you require further assistance, just let me know.", "I'm happy to be of assistance If you ever need help again, I'll be here."]
+           },
+           {
+            "tag":"apology",
+            "pattern":["i am sorry if i misunderstood","I apologize for any confusion.","My apologies if I was unclear.", "I'm sorry if I didn't explain well.","I apologize for any misinterpretation.","I'm sorry if I got it wrong.","I apologize for any mistakes.","Sorry if my question was unclear.","I'm sorry if my message was confusing.", "Apologies for any mix-up on my end." ],
+            "response":["No problem at all Let's work together to clarify things. What do you need help with?","No worries! If there's any confusion, feel free to let me know, and I'll do my best to assist.","No need to apologize If you have questions or need information, I'm here to help.","No need to feel bad If there's anything you're unsure about, just ask.","No worries If anything wasn't clear, please provide more details, and I'll assist you.","It's okay Feel free to provide more context, and I'll do my best to understand and help.","Don't worry about it If you have concerns or need clarification, I'm here to assist.","No problem at all If my response was unclear, let's work together to make it clearer.","No need to apologize! If my message was confusing, let's sort things out together.","No worries If there was any confusion, I'm here to provide the information you need."]
+           },
+           {
+            "tag":"smart",
+            "pattern":["Tell me something interesting.", "Impress me with your knowledge.","Engage me in a smart conversation.","Let's talk about something intellectual.","Share a fun fact with me.","Tell me a clever joke.","Teach me something new.","I'm in the mood for some brainy chat.","Tell me a mind-bending fact.","Challenge me with a riddle."],
+            "response":["Sure thing Did you know that honey never spoils? It's one of nature's most amazing preservatives.","I'm up for the challenge Did you know that the world's largest desert is Antarctica? Surprising, right?","Engaging in an intellectual conversation sounds great Did you know that there are more possible iterations of a game of chess than there are atoms in the observable universe?","Absolutely, let's delve into something thoughtful. Did you know that octopuses have three hearts and blue blood?","Sure, here's a fun fact: Honeybees can recognize human faces","Sure, here's a clever joke: Why don't scientists trust atoms? Because they make up everything","Certainly Did you know that the brain is more active at night than during the day?","Intellectual conversations are my thing Did you know that honeybees can communicate with each other through dance?","Absolutely, let's explore a mind-bending topic. Did you know that time dilation occurs near massive objects, like black holes?","Of course Here's a riddle for you: I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?"]
+           },
+           {
+            "tag":"affirmation",
+            "pattern":["absolutely","Indeed!","You're right.","Exactly!","That's correct.","I agree.","No doubt!","For sure!","Absolutely right.","Spot on!"],
+            "response":["Indeed I'm glad we're on the same page.","Absolutely Your understanding is right on point.", "You're right, and I appreciate your agreement.", "Exactly Your grasp of the situation is impressive.","That's correct Your observation is accurate.","I agree wholeheartedly. You've got it", "No doubt about it Your insight is appreciated.","For sure Your affirmation is reassuring.","Absolutely right. Your assessment is spot-on.", "Spot on I'm glad we're aligned in our understanding."]
+           }
+          ]
+}
+                  
